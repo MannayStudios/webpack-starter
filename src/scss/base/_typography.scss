@@ -1,0 +1,28 @@
+// Typography rules
+
+@import url('https://rsms.me/inter/inter.css');
+
+html {
+  font-family: 'Inter', sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: 'Inter var', sans-serif;
+  }
+}
+
+// Import using @font-face
+// @font-face {
+//   font-family: 'NameOfTheFont';
+//   src: url('../fonts/NameOfTheFont.woff') format('woff');
+//   font-weight: 400;
+//   font-style: normal;
+// }
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+}
